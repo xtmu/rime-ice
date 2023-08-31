@@ -17,3 +17,5 @@ others/script/scel2txt/scel/*
 rime_console
 rime_deployer
 rime_patch
+*.swp
+custom_phrase_2.txt
