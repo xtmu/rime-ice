@@ -178,7 +178,11 @@ custom_phrase:
   db_class: stabledb
   enable_completion: true # 补全提示
   enable_sentence: false   # 禁止造句
+  spelling_hints: 8          # 拼写提示
+  always_show_comments: true # 显示提示
   initial_quality: 99      # custom_phrase 的权重应该比 pinyin 和 melt_eng 大
+  comment_format:          # 自定义提示码
+    - xform/(.*)/$1/           # 清空提示码
 
 
 # Emoji
