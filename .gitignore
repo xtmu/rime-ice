@@ -7,7 +7,6 @@ build/
 installation.yaml
 user.yaml
 
-custom_phrase_double.txt
 others/script/scel2txt/out/*
 others/script/scel2txt/scel/*
 
@@ -22,3 +21,4 @@ rime_patch
 rime-japanese-master/
 rime-kunyomi-master/
 custom_phrase.txt
+custom_phrase_double.txt
