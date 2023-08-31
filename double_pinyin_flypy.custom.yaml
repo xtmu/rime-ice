@@ -12,3 +12,6 @@ patch:
     enable_completion: true     # 开启补全提示
     enable_sentence: false
     initial_quality: 99
+
+  # 不显示为全拼编码
+  translator/preedit_format: []
