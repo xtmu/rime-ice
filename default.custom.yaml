@@ -2,9 +2,8 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.15.0.0
   generator: "Rime::SwitcherSettings"
-  modified_time: "Thu Aug 31 02:30:49 2023"
+  modified_time: "Fri Sep  1 03:02:55 2023"
   rime_version: 1.8.5
-
 patch:
   "key_binder/bindings":
     - {accept: ISO_Left_Tab, send: Page_Up, when: composing}
@@ -45,10 +44,11 @@ patch:
     - {accept: "Control+period", toggle: traditionalization, when: always}
     - {accept: "Control+comma", toggle: ascii_punct, when: always}
     - {accept: "Control+Shift+space", select: .next, when: always}
-
   schema_list:
     - {schema: double_pinyin_flypy}
     - {schema: japanese}
     - {schema: kunyomi}
     - {schema: liangfen}
     - {schema: swiftkana}
+    - {schema: kaomoji}
+    - {schema: rime_ice}
