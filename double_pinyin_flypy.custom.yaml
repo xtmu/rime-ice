@@ -1,0 +1,14 @@
+# Rime schema
+# encoding: utf-8
+
+patch:
+  engine/translators/+:
+    - table_translator@custom_phrase_2
+
+  custom_phrase_2:
+    dictionary: ""
+    user_dict: custom_phrase_2  # 创建 custom_phrase_2.txt 文件
+    db_class: stabledb
+    enable_completion: true     # 开启补全提示
+    enable_sentence: false
+    initial_quality: 99
