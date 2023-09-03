@@ -181,7 +181,7 @@ abc_segmentor:
 kaomoji:
   tag: kaomoji
   dictionary: kaomoji     # 挂载 kaomoji.yaml
-  prefix: "FK"              # 以 i 开头来反查
+  prefix: "K"              # 以 i 开头来反查
   enable_completion: true  # 补全提示
   initial_quality: 99     # 初始权重
   # tips: 〔颜文字〕          # 反查时显示的文字，建议注释掉，否则很多 i 开头的英文单词也会显示这个
@@ -232,7 +232,7 @@ recognizer:
     punct: "^V([0-9]|10|[A-Za-z]+)$"  # 响应 symbols_caps_v.yaml 的 symbols
     # liangfen: "^L[a-z]+$"       # 响应两分拼字的反查
     reverse_lookup: "^L[a-z]+$"       # 响应两分拼字的反查
-    kaomoji: "^FK[a-z]+$"       # 响应颜文字的反查
+    kaomoji: "^K[a-z]+$"       # 响应颜文字的反查
     unicode: "^U[a-f0-9]+"            # 响应 Unicode
     number: "^R[0-9]+[.]?[0-9]*"      # 响应 number_translator
 
