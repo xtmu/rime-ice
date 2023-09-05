@@ -2,42 +2,11 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.15.0.0
   generator: "Weasel::UIStyleSettings"
-
+  modified_time: "Tue Sep  5 17:29:24 2023"
+  rime_version: 1.8.5
 patch:
-  
-  "style/color_scheme": brisk
-  "style/font_face": "Yu Mincho"
-  "style/horizontal": true
-  "style/layout/border": 1
-  "style/layout/corner_radius": 4
-  "style/layout/hilite_padding": 10
-  "style/layout/hilite_spacing": 10
-  "style/layout/margin_x": 11
-  "style/layout/margin_y": 11
-  "style/layout/round_corner": 0
-  "style/layout/spacing": 20
-  "style/inline_preedit": true
-
-  # preset_color_schemes:
-  #   Setsuna: {author: xtmu, back_color: 0xffffff, border_color: 0x888888, candidate_text_color: 0x000000, hilited_back_color: 0xffffff, hilited_candidate_back_color: 0x2965CC, hilited_candidate_text_color: 0xffffff, hilited_text_color: 0x000000, name: Setsuna, text_color: 0x000000}
-  # "style/color_scheme": Setsuna
-  # "style/display_tray_icon": true
-  # # "style/font_face": "ResourceHanRoundedCN-Regular"
-  # "style/font_face": "simhei"
-  # # "style/font_face": "STKAITI"
-  # # "style/font_face": "SourceHanSans-Heavy"
-  # # "style/font_face": "SourceHanSans-Regular"
-  # # "style/font_face": "sarasa-regular.ttc"
-  # "style/font_point": 16
-  # "style/horizontal": true
-  # "style/inline_preedit": true
-  # "style/layout/border": 1
-  # "style/layout/border_width": 2
-  # "style/layout/candidate_spacing": 24
-  # "style/layout/hilite_padding": 12
-  # "style/layout/hilite_spacing": 3
-  # "style/layout/margin_x": 12
-  # "style/layout/margin_y": 12
-  # "style/layout/round_corner": 0
-  # "style/layout/spacing": 10
-
+  "preset_color_schemes/+":
+    __include: "weasel_style_copy:/preset_color_schemes"
+  "style/+":
+    __include: "weasel_style_copy:/style"
+  "style/color_scheme": setsuna
