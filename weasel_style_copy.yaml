@@ -33,7 +33,7 @@ style:
   label_font_point: 14 # 标签字体大小，不设定 fallback 到 font_point
   comment_font_point: 14 # 注释字体大小，不设定 fallback 到 font_point
 
-  inline_preedit: true # 行内显示预编辑区：true；false
+  inline_preedit: false # 行内显示预编辑区：true；false
   preedit_type: composition # 预编辑区内容：composition（编码）； preview（高亮候选）；preview_all（全部候选）
 
   # 布局设定，同样可以在 layout 的 type 下指定
@@ -66,7 +66,7 @@ style:
     type: horizontal # horizontal（横向）；vertical（竖向） ; vertical_text（竖排文本） ; vertical+fullscreen（全屏） ; horizontal+fullscreen（横向全屏）
     border_width: 1 # 边框宽度，又名 border
     border_height: 8 # 边框宽度，又名 border
-    margin_x: 8 #12 # 元素偏离候选边框 X 轴距离；为负值时，不显示候选框
+    margin_x: 12 #12 # 元素偏离候选边框 X 轴距离；为负值时，不显示候选框
     margin_y: 8 #12 # 元素偏离候选边框 Y 轴距离；为负值时，不显示候选框
     spacing: 10 # 默认间隙
     candidate_spacing: 16 # 候选项之间的间隔
@@ -76,9 +76,9 @@ style:
     hilite_padding_y: 2 # 高亮区域和边框的 y 轴间隔
     shadow_offset_x: 0 # 阴影偏离和圆角大小
     shadow_offset_y: 2
-    shadow_radius: 7
-    corner_radius: 6 # 候选框圆角
-    round_corner: 6  # 高亮区域圆角；又名 hilited_corner_radius
+    shadow_radius: 6
+    corner_radius: 12 # 候选框圆角
+    round_corner: 12  # 高亮区域圆角；又名 hilited_corner_radius
 
 
 # 全部 color_schemes 选项，点击小狼毫「输入法设定」可以预览皮肤效果
