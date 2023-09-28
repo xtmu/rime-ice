@@ -84,6 +84,7 @@ engine:
     - simplifier@traditionalize           # 简繁切换
     - lua_filter@autocap_filter           # 英文自动大写
     - lua_filter@reduce_english_filter    # 降低部分英语单词在候选项的位置
+    - lua_filter@en_spacer                # 英文单词自动空格
     - uniquifier                          # 去重
 
 
