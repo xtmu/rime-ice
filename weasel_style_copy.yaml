@@ -22,7 +22,8 @@ style:
   # 字体1[:起始码位:结束码位:字重:字形][,字体2 ...]，详情请参考 <https://github.com/rime/weasel/wiki/字體設定>
   # 字体会依次 fallback
   # font_face: "ResourceHanRoundedCN-Regular" # 全局字体。为了让部分复合型 emoji 正常显示，可以将 emoji 字体放在首位，并指定起始码位防止影响其他字符。refer <https://github.com/rime/weasel/issues/932> 例如：
-  font_face: "Yu Mincho" # 全局字体。为了让部分复合型 emoji 正常显示，可以将 emoji 字体放在首位，并指定起始码位防止影响其他字符。refer <https://github.com/rime/weasel/issues/932> 例如：
+  font_face: "LXGWWenKai-Regular" # 全局字体。为了让部分复合型 emoji 正常显示，可以将 emoji 字体放在首位，并指定起始码位防止影响其他字符。refer <https://github.com/rime/weasel/issues/932> 例如：
+  # font_face: "Yu Mincho" # 全局字体。为了让部分复合型 emoji 正常显示，可以将 emoji 字体放在首位，并指定起始码位防止影响其他字符。refer <https://github.com/rime/weasel/issues/932> 例如：
   # font_face: "simhei" # 全局字体。为了让部分复合型 emoji 正常显示，可以将 emoji 字体放在首位，并指定起始码位防止影响其他字符。refer <https://github.com/rime/weasel/issues/932> 例如：
   # font_face: "tahoma" # 全局字体。为了让部分复合型 emoji 正常显示，可以将 emoji 字体放在首位，并指定起始码位防止影响其他字符。refer <https://github.com/rime/weasel/issues/932> 例如：
   # font_face: "Microsoft YaHei" # 全局字体。为了让部分复合型 emoji 正常显示，可以将 emoji 字体放在首位，并指定起始码位防止影响其他字符。refer <https://github.com/rime/weasel/issues/932> 例如：
