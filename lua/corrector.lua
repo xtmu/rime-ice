@@ -21,11 +21,6 @@ local corrections = {
 	["pu gai zai"] = { text = "扑街仔", comment = "pu jie zai" },
 	["gai liu zi"] = { text = "街溜子", comment = "jie liu zi" },
 	["shui fu"] = { text = "说服", comment = "shuo fu" },
-	["zuo ji"] = { text = "坐骑", comment = "zuo qi" },
-	["yi ji jue chen"] = { text = "一骑绝尘", comment = "yi qi jue chen" },
-	["yi ji hong chen fei zi xiao"] = { text = "一骑红尘妃子笑", comment = "yi qi hong chen fei zi xiao" },
-	["qian li zou dan ji"] = { text = "千里走单骑", comment = "qian li zou dan qi" },
-	["yi ji dang qian"] = { text = "一骑当千", comment = "yi qi dang qian" },
 	["dao hang"] = { text = "道行", comment = "dao heng" },
 	["mo yang"] = { text = "模样", comment = "mu yang" },
 	["you mo you yang"] = { text = "有模有样", comment = "you mu you yang" },
@@ -88,6 +83,9 @@ local corrections = {
 	["zhao cha er"] = { text = "找茬儿", comment = "找碴儿" },
 	["da jia lai zhao cha"] = { text = "大家来找茬", comment = "大家来找碴" },
 	["da jia lai zhao cha er"] = { text = "大家来找茬儿", comment = "大家来找碴儿" },
+	["ci ya"] = { text = "龇牙", comment = "龇(zi)牙" },
+	["ci zhe ya"] = { text = "龇着牙", comment = "龇(zi)着牙" },
+	["ci ya lie zui"] = { text = "龇牙咧嘴", comment = "龇(zi)牙咧嘴" },
 }
 
 local function corrector(input)
