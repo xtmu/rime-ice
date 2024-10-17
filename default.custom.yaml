@@ -1,9 +1,9 @@
 customization:
   distribution_code_name: Weasel
-  distribution_version: 0.15.0.0
+  distribution_version: 0.16.3
   generator: "Rime::SwitcherSettings"
-  modified_time: "Fri Sep  1 03:02:55 2023"
-  rime_version: 1.8.5
+  modified_time: "Thu Oct 17 19:40:23 2024"
+  rime_version: 1.11.2
 patch:
   "key_binder/bindings":
     - {accept: ISO_Left_Tab, send: Page_Up, when: composing}
